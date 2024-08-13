@@ -33,3 +33,5 @@ RUN microdnf -y update && microdnf -y clean all
 USER 65532:65532
 
 ENTRYPOINT ["/manager"]
+
+#20240813

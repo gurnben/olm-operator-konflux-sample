@@ -33,3 +33,5 @@ LABEL operators.operatorframework.io.test.config.v1=tests/scorecard/
 COPY --from=builder /manifests /manifests/
 COPY --from=builder /metadata /metadata/
 COPY gatekeeper-operator/bundle/tests/scorecard /tests/scorecard/
+
+#20240813
